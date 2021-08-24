@@ -1,4 +1,4 @@
-ssh ubuntu@3.36.166.152 -t -t <<EOF
+ssh ubuntu@172.31.1.234 -t -t <<EOF
     cd ~/jenkins-test		
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
